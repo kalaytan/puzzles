@@ -1,0 +1,68 @@
+# https://www.codingame.com/ide/puzzle/the-great-dispatch
+# https://github.com/CodinGame/CG-Dispatch-Tests
+
+
+
+tracks [0-99];
+
+
+box = vector<index , volume, weight>
+
+
+total_weight 
+avg_weight
+max_weight = avg_weight + 0.5;
+min_weight = avg_weight - 0.5;
+
+
+
+while (!load.empty())
+{
+	if
+}
+
+
+
+box = 
+
+
+track.volume(sum) <= 100
+
+
+10.0.14393.0
+
+1. save load to const vector <index, volume, weight>. 
+1.1. convert volume and weight to int?
+1.2. find total weight, average, max_weight & min_weight.
+2. order vector by weight. heaviest first.
+3. create empty vector of tracks.
+4. move first box into first track.
+5. create bool function that checks if track within volume and weight allowed.
+
+
+void function f_loop(parcel, track, auto trucks, auto remaining_load)
+{
+	if(!remaining_load.empty())
+	{
+		auto parcel = remaining_load.end(); 
+	}
+	
+	if(trucks.size() < 100)
+	{
+		trucks.add(parcel);
+		f_loop(truck, remaining_load)
+	}
+
+	for(truck: trucks)
+	{
+		if(truck.free_weight >= parcel.weight)
+		{
+		 truck.add(parcel);
+		 f_loop(trucks, remaining_load);	
+		}
+
+	}
+}
+
+
+

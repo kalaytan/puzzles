@@ -1,0 +1,3 @@
+[submodule "the-great-dispatch/CG-Dispatch-Tests"]
+	path = the-great-dispatch/CG-Dispatch-Tests
+	url = git@github.com:CodinGame/CG-Dispatch-Tests.git
