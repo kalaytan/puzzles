@@ -3,7 +3,7 @@
 
 
 
-tracks [0-99];
+#s [0-99];
 
 
 box = vector<index , volume, weight>
@@ -26,7 +26,7 @@ while (!load.empty())
 box = 
 
 
-track.volume(sum) <= 100
+truck.volume(sum) <= 100
 
 
 10.0.14393.0
@@ -35,12 +35,12 @@ track.volume(sum) <= 100
 1.1. convert volume and weight to int?
 1.2. find total weight, average, max_weight & min_weight.
 2. order vector by weight. heaviest first.
-3. create empty vector of tracks.
-4. move first box into first track.
-5. create bool function that checks if track within volume and weight allowed.
+3. create empty vector of trucks.
+4. move first box into first truck.
+5. create bool function that checks if truck within volume and weight allowed.
 
 
-void function f_loop(parcel, track, auto trucks, auto remaining_load)
+void function f_loop(parcel, truck, auto trucks, auto remaining_load)
 {
 	if(!remaining_load.empty())
 	{
